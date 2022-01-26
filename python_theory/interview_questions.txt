@@ -1,0 +1,8 @@
+------------------------------22-01-2022_tech_mahendra_interview----------------------------------
+Expain about project?
+
+str1="t6%97nb20K#n7f4"
+output = 6972074
+
+num = 768
+output = 867
