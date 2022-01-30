@@ -1,0 +1,61 @@
+--------------------------------------------29-01-2022_HCL_Technical_interview--------------------------------------------------
+
+
+1)Introduce about yourself?
+2)Explain breifly about project?
+3)Can you explain single testcase?
+4)How long have you been working in micron?
+5)You are testing something right from based on jira what are you testing actually?
+6)Testcase containing test steps rigth what that test will do?
+7)You can take a testcase you worked on recently you can explain?
+8)Do you know how to pass a json file?
+9)Do you know how to read a json file?
+10)What would be the output formate be in giving the json input?
+11)How many team members their along with you?
+12)Have you played any lead kind of role?
+13)Rate yourself in python out of 10?
+14)What are the modules that you have been worked in python? 
+15)Why you are using pylint?
+16)You said that you worked in jira right what are the states in jira?
+17)You are also doing storage testing like us correct so what exactly you do?
+18)Firmware files will be in which formate?
+19)list1 = [1, 2, 3, 8, 7, 4, 9, 78, 200, 67]
+listValue = [10, 11, 3, 5, 7, 2, 9, 1, 8, 99, 45, 34, 30]
+Get the common values, unique values, min and max number
+
+20)if num=234312312137 reverse this num?
+
+21)a = 10
+def fun(20):
+a = 100
+print(a)
+return a
+a=45
+b = func(1000)
+print a
+print b
+
+22)try:
+ fh = open("test.txt", "a")
+ fh.write("This is my test file!")
+ finally:
+ print "Error : cant find file or read data"
+ else:
+ print "Written content in the file successfully"
+
+23)def bar(x,*y,**z):
+ print x,y,z
+ bar(5,6,7,a=7,b=8)
+ what are the value of x,y,z?
+
+24)a = 'bat'
+
+   a[0]='c'
+
+25)Do you know MRO?
+26)What is self?
+27)What is constructor?
+28)What is destructor?
+29)What are decorators?
+30)what is the comprehension?
+31)Can you write an example program for list comprehention?
