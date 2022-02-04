@@ -1,0 +1,111 @@
+----------------------------------------------------Tech mahendra interview questions------------------------------------------
+
+Briefly explain about project? 
+
+What is dictionary in python?
+
+What is list and tuple?
+
+What is the concept use to develope arrays in python?
+
+Can you explain oops concept in python?
+
+What is multi level inheritance?How is the flow?
+
+What is multiple inheritance?
+
+What is MRO?
+
+What is method overiding?
+
+Write a program of traiangle pattern?
+
+----------------------------------------------Breeza technologies-------------------------------------------------
+
+Introduce youself with your roles and responsibilities?
+
+Explain breifly about project?
+
+If any test cases is fail if it is a test issue then what you do?
+
+What are the test cases you are testing and what is the function of that test case give any example?
+
+What is decorator?
+
+Can you tell me what is the difference between shallow copy and deep copy?
+
+Can you explain about generator?
+
+Can you tell me about list comprehension?
+
+When you use regex module?
+
+Have you use match and search funtion?
+
+Can you explain difference between searchand match function?
+
+What is the difference between multiple and multilevel inheritance?
+
+Say what is your aproch of a list contains many numbers i want second largest number with out using builtin methods in python?
+
+What is singleton function?
+
+Coming to some students related knowledge what are protocols you worked on tata or anyother?
+
+
+-----------------------------------------------------Innominds interview quetions---------------------------------------------
+
+Introduce yourself with roles and responsibilities?
+
+What are your day to day activities?
+
+How do you test the test cases of ssd's?
+
+What are the tools you have used to write the data into an ssd?
+
+Can you quickly explain how will be you test and testbits?
+
+Will you exicute the test cases or not?
+
+Is it linux machine connected to ssd or how it will be?
+
+Can you explain the simple test case if you given one ssd to you what will you do?
+
+How you test data packs?
+
+Tell me how do you list all the test cases in your framework in your pytest just give me any list of test case names?
+
+You have used any virtual machine?
+
+What kind of virtual machine you have used how did you use?what is the hyperviser you have used?
+
+What is a decorator?
+
+Using decorator write a program?
+
+What is a branch?
+
+list_1=[3, 6, 9, 12, 15, 18, 21]
+list_2=[4, 8, 12, 16, 20, 24, 28]
+I want odd index of list 1 print it in one list and i want even index in list 2 and print it in another list combine both list 1 and list 2 
+elements in third list?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

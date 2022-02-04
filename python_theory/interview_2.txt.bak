@@ -1,0 +1,162 @@
+----------------------------------------------------Tech mahendra interview questions------------------------------------------
+
+Briefly explain about project? 
+
+What is dictionary in python?
+
+What is list and tuple?
+
+What is the concept use to develope arrays in python?
+
+Can you explain oops concept in python?
+
+What is multi level inheritance?How is the flow?
+
+What is multiple inheritance?
+
+What is MRO?
+
+What is method overiding?
+
+Write a program of traiangle pattern?
+
+----------------------------------------------Breeza technologies-------------------------------------------------
+
+Introduce youself with your roles and responsibilities?
+
+Explain breifly about project?
+
+If any test cases is fail if it is a test issue then what you do?
+
+What are the test cases you are testing and what is the function of that test case give any example?
+
+What is decorator?
+
+Can you tell me what is the difference between shallow copy and deep copy?
+
+Can you explain about generator?
+
+Can you tell me about list comprehension?
+
+When you use regex module?
+
+Have you use match and search funtion?
+
+Can you explain difference between searchand match function?
+
+What is the difference between multiple and multilevel inheritance?
+
+Say what is your aproch of a list contains many numbers i want second largest number with out using builtin methods in python?
+
+What is singleton function?
+
+Coming to some students related knowledge what are protocols you worked on tata or anyother?
+
+
+-----------------------------------------------------Innominds interview quetions---------------------------------------------
+
+Introduce yourself with roles and responsibilities?
+
+What are your day to day activities?
+
+How do you test the test cases of ssd's?
+
+What are the tools you have used to write the data into an ssd?
+
+Can you quickly explain how will be you test and testbits?
+
+Will you exicute the test cases or not?
+
+Is it linux machine connected to ssd or how it will be?
+
+Can you explain the simple test case if you given one ssd to you what will you do?
+
+How you test data packs?
+
+Tell me how do you list all the test cases in your framework in your pytest just give me any list of test case names?
+
+You have used any virtual machine?
+
+What kind of virtual machine you have used how did you use?what is the hyperviser you have used?
+
+What is a decorator?
+
+Using decorator write a program?
+
+What is a branch?
+
+list_1=[3, 6, 9, 12, 15, 18, 21]
+list_2=[4, 8, 12, 16, 20, 24, 28]
+I want odd index of list 1 print it in one list and i want even index in list 2 and print it in another list combine both list 1 and list 2 
+elements in third list?
+
+----------------------------------------------------Test yantra interview questions---------------------------------------------
+
+Introduce yourself and explain your roles and responsibilities?
+
+Tell me difference between smoke and sanity testing?
+
+What is the difference between retesting and regression testing?
+
+When we will do retesting ang when we will do regression testing?
+
+There is a web page that web page should contains 7 sentences all the sentenses should be in blue colour except 5 th sentances shouldbe in red colour
+and it is a link and developer give it for testing while testing that wsb page all the sentances are in blue colour only it is not according to 
+requirement you will write as a issue apart that what priority and siviourity will give for that issue?
+
+Are you involved in writing test cases?
+
+Open chrome browser and open amazon aplication go to cart page write 3 positive senarious and negative senarious on this page?
+
+You worked on mobile applications?
+
+You worked on api?Then tell me diffeence bewteen 200 and 201?
+
+What are the http status ports are thire in api?
+
+What are the http methods you are going to take in api?
+
+What is python?
+
+What are the difference between list and tuple?
+
+Can you concatenate two tuples?
+
+Take 2 tuples and show me that how to concatenate?
+
+
+Write a pattern output:1234
+                       123
+					   12
+			           1
+What is pythonpath?
+					   
+Go to top corner of that amazon browser inspect that how you identify xpath for that?identify the element?
+
+What is positive and negative indices?
+
+Why do we need break in python?
+
+How many ways can we apply in reverse string?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
