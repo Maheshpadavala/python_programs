@@ -1,0 +1,62 @@
+--------------------------------------------Cignity first round of interview-------------------------------------------8 out of 10
+
+1. Tell me about yourself?
+
+2. Explain about your project?
+
+3. Explain breifly about python?
+
+4. Explain about oops concept?
+
+5. Difference between array and list?
+
+6. Difference between list, tuple, dictionary and set?
+
+7. Explain about lambda function?
+
+8. Can you explain about decorators?
+
+9. Explain about paramiko?
+
+10.Difference between retesting and regression testing?
+
+11.Can you explain if you have a list of elements and i want the max value in that list?
+
+12.Can you explain about generators?
+
+
+
+
+----------------------------------------------Cignity second round of interview-------------------------------------------8 out of 10
+
+1.Introduce yourself?
+
+2.Explain about your project?
+
+3.Explain about datatypes in python?
+
+4.What is difference between multilevel and multiple inheretance?
+
+5.You have been using different modules right can you explain those?
+
+6.What is PEP8?
+
+7.Can you explain about filter function in python?
+
+8.Can you explain about generators?
+
+9.Can you explain about constructor in python?
+
+10.Can you explain about difference between .py and .pyc files?
+
+
+
+
+
+
+
+
+
+
+
+

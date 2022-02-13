@@ -1,0 +1,73 @@
+----------------------------------------Nagravision interview first round feb 12---------------------------------7 out of 10
+
+1.Introduce yourself with roles and responsibilities?
+
+2.Explain about your project?
+
+3.How you transfer files and get the files in your project?
+
+4.Can you explain about modules how did you use all the modules?
+
+5.Explain about agile methodology?
+
+6.Explain about jira process in you project?
+
+7.If you face any issue in project how you deal with that issue?Whom will you report?
+
+8.If your team lead is known about your issue and he is not respond to you,he have full of work important than this one how you face that one?
+
+9.What is usage of append can you explain with example?
+
+10.What is usage of extend can you explain with example?
+
+11.Take any number i want output as list of each and every digit of that number?
+
+12.Using re module match the upper case letter of the string?
+
+
+-----------------------------------------Nagravision interview second round feb 12---------------------------------5 out of 10
+
+1.Introduce yourself?
+
+2.Briefly explain your project?
+
+3.Write a program to sum of elements in the list without using for loop?
+
+4.I want to print current time?
+
+5.I want to print duplicate characters in a given string?
+
+6.Using re check given email id is valid or not?
+
+7.Explain about fixture with example?
+
+8.In pytest if you want to run something before test so where do you define those tests in pytest like you have to do some setup ok those thing where
+  you define in pytest?
+  
+9.What is your contribution in your project in pytest?What you have done?
+
+10.Have you developed any test cases?
+
+11.Explain about parameterization in pytest?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
