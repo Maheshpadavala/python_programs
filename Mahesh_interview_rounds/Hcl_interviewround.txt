@@ -24,7 +24,7 @@
 
 12.if x=10,x=(x+2)-12 y=53 output = y/x
 
-13.In exceptional handling when we gent run time error?
+13.In exceptional handling when we get run time error?
 
 14.What is an constructor in python?
 
