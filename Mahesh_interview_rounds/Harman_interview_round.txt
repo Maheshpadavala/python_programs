@@ -1,0 +1,16 @@
+-----------------------------------------Harman interview_round------------------------------------------------3 out of 10
+
+1.Introduce your self with roles and responsibilities?
+
+2.What is the use of pylint?
+
+3.What are the stages of pylint it have some score know what are they?
+
+4.You have worked on Re module know write a program of valid ip address?
+
+5.if a=1,2,3 it will work or not and a,b=1,2,3 why this is not working a,b,c = 1,2,3 it will work?
+
+6.Take a list i want unique valuse from that with out taking any datatypes and builtin methods and dont take any new list or string?
+
+7.I am done with my interview you have any queries?
+

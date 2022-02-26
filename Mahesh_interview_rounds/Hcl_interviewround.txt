@@ -1,0 +1,47 @@
+--------------------------------------Hcl interview quetions-----------------------------------------------8 out of 10
+
+1.Introduce yourself?
+
+2.What is a doc string in python?
+
+3.What is garbage collection?
+
+4.What is glass box testing and black box testing?
+
+5.What is module and package?
+
+6.What is the use of __main__ and __variable__?
+
+7.What is the use of with statement?
+
+8.What is the difference between append and extend?
+
+9.What is meant by algoritham?
+
+10.Pseudo code for algoritham?
+
+11.List_1 = {2,4,5,7,4,5,9},list_2={2,8,5,3,1,9} find unique values by using set method?
+
+12.if x=10,x=(x+2)-12 y=53 output = y/x
+
+13.In exceptional handling when we gent run time error?
+
+14.What is an constructor in python?
+
+15.What is an lambda function in python?
+
+16.You are using github as code repository right then how you share your code changes what are the steps you have been using?
+
+17.Does python support inheritance?
+
+18.Explain how many types of inheritanceare thire?
+
+
+
+
+
+
+
+
+
+

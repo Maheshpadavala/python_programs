@@ -1,0 +1,9 @@
+----------------------------------------------Mindteck interview round----------------------------------------0 out of 10
+
+Introduce about yourself with roles and responsibilities?
+
+Explain breifly about your project?
+
+If you want to transfer information or get what will you do?
+
+If you have any txt file in that particular word if you have json in that file i want how many json words are thire in that file print those?
