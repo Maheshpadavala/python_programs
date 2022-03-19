@@ -1,0 +1,24 @@
+-------------------------------------------------Tectoro interview round 2--------------------------------------------7 out of 10
+
+
+1)Introduce yourself?
+
+2)Explain about project which you have done recently?
+
+3)What is MSVx?
+
+4)What is the biggest challenge that you have faced in your work experience and how you solved it?
+
+5)What is the toughest challenge faced in your career?
+
+6)What is global interpreter lock?
+
+7)Difference between list and tuple?
+
+8)What are generators?
+
+9)What is __init__ in python?
+
+10)What is difference between pip and conda?
+
+11)What is virtual python environment?

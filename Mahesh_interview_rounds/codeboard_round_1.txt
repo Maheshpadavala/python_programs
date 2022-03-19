@@ -1,0 +1,21 @@
+--------------------------------------------------Codeboard Interview 1st round--------------------------------------------7 out of 10
+
+1)Introduce about yourself?
+
+2)Explain about project?
+
+3)What is winrm and where it uses?
+
+4)What are the modules you have used in you project?
+
+5)Using regex can you match 6 digit number?
+
+6)You have list of 10 element in that output should be nth highest integer?
+
+7)What are the difference between list and tuple?
+
+8)What are generators?
+
+9)What are decorators?
+
+10)Do you have any queries bro your side?

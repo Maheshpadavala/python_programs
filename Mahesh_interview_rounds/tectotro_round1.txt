@@ -1,0 +1,35 @@
+-------------------------------------------------Tectoro interview round 1--------------------------------------------8 0ut 0f 10
+
+1)Introduce yourself?
+
+2)Why do you use jira?
+
+3)You know about epic jira?
+
+4)Have you worked on selinium?
+
+5)What is the basic difference between pandas and numpy?
+
+6)How many datatypes in python?
+
+7)Suppose you are adding 10 and 'a' what is the output?
+
+8)Suppose x=10+"10" ehat is the output?
+
+9)Why you have using the regular expressions?
+
+10)What are the metacharacters are?
+
+11)You are having alpha numeric can you extract alpha or numbers in it?
+
+12)What is the difference between list and tuple?
+
+13)If you have a list of 10 elements can you change any position in that list?
+
+14)What is the range function in python?
+
+
+
+
+
+
