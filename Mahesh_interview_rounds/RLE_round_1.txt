@@ -1,0 +1,17 @@
+-----------------------------------------RLE interview round 1----------------------------------------5 out of 10
+
+1)Introduce yourself?
+
+2)About project?
+
+3)Explain about agile methodology in your project?
+
+4)What is dictionary?
+
+5)What is decorator and give me an example?
+
+6)What is difference between list and tuple?
+
+7)What is difference between numpy and pandas?
+
+8)Have you worked on selenium?

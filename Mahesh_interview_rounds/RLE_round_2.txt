@@ -1,0 +1,20 @@
+-----------------------------------------RLE interview round 2----------------------------------------7 out of 10
+
+
+1)Introduce yourself?
+
+2)Explain about project?
+
+3)Did you worked on selenium?
+
+4)What is the use of function in python?
+
+5)What is PEP8 in python?
+
+6)Explain about oops concept?
+
+7)Whar are generators in python?
+
+8)When you have any issues how you solve that issue?
+
+9)What are the issueshave you faced in you project?
