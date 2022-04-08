@@ -1,0 +1,29 @@
+--------------------------------------------------Dell interview first round------------------------------------------------ 6 out of 10
+
+Introduce yourself?
+
+What kind of Automation you have worked on and what kind of tools you have used what kind of applications you have used?
+
+You have said you are not using selenium like which tools you have used?
+
+Are you using manually are any integration with api tools?
+
+Are you doing the UA automation?
+
+Have you written any scripts?
+
+On which technology you are working with?
+
+Which modules you have been used?
+
+How you load the input to your test cases?
+
+How are loading that files?
+
+What are the datatypes you are using?
+
+What is the difference between array and list?
+
+You are not using selenium write?
+
+DO you have any quesions mahesh?
