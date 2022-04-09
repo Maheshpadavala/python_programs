@@ -1,0 +1,29 @@
+--------------------------------------------Bhawancybertech round 2------------------------------------
+
+1)Introduce yourself?
+
+2)Using regular expression I want alphanumeric charecter in the given string?
+
+3)What are the differences between list and tuple?
+
+4)How to increment the given list using map function?
+
+5)How to update a value in given dictionary?
+
+6)What are differences between set and dictionary?
+
+7)What is constructor in python?
+
+8)Take 2 sets and give some values to those sets and I want the unique elements from both sets combined?
+
+9)Explain breifly about inheretance?
+
+10)Take a string and print the first first unique character and the position of it?
+
+11)Reverse the keys and valuse in the given dictionary?
+
+12)What is meant by polymorphism?
+
+13)What are decorators in python?
+
+14)What is generator?

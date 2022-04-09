@@ -1,0 +1,9 @@
+--------------------------------------------Codeboard Technologies round 2------------------------------------
+
+
+1)Reverse the given string.
+string_1 = "mahesh"
+output = hseham
+
+2)Input = [1,2,3,2,5,2,1,6,7,34,5]
+output = 2,5
