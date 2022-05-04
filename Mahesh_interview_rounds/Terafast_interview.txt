@@ -1,0 +1,27 @@
+-----------------------------------------------Terafast network interview questions------------------------------------------------
+
+1)Why you are changing currently?
+
+2)Explain more about your work experience?
+
+3)Which one is the best paramiko or suprocess?
+
+4)What is the difference between json loads and dumps?
+
+5)What are the levels in logging module?
+
+6)Why you are using random and what is the purpose of it?
+
+7)Any experience in flask and Django?
+
+8)What is API testing?
+
+9)What is the purpose of git stash command in github?
+
+10)What is parallel exicution in python?
+
+11)What is the difference between list and tuple?
+
+12)What is lambda function?
+
+13)Explain some of the methods using i

@@ -1,0 +1,42 @@
+------------------------------------------------Mirafra interview questions------------------------------------------------
+
+1) Breifly introduce yourself?
+
+2)Can you explain roles and responsibilities?
+
+3)What is the use of super function?
+
+4)Why strings are immutable?
+
+5)What is the difference between indexing and slicing?
+
+6)What tools you are reffering for bug reporting?
+
+7)Can i know about the bug lifecycle?
+
+8)Do you know blocker issues?
+
+9)What is the use of decorator?
+
+10)Which methonds you have used in subprocess?
+
+11)Can we print the ip address by using subprocess?
+
+12)Difference between sort and sorted?
+
+13)What are the exceptions?Which type of exceptions you have been faced in your project?
+
+14)What is the __init__ funtion in python?
+
+15)What is the use of *args and **kwargs?
+
+16)How do we check perticular key exsists in dictionary?
+
+17)Do you know anonymous function?
+
+18)In the reduce method can we use directly or we want to use any type of modules?
+
+19)What is the use of search and match method in python?
+
+20)Can we acces 2 versions in a single pc?
+

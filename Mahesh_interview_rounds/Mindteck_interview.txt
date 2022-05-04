@@ -1,9 +1,24 @@
-----------------------------------------------Mindteck interview round----------------------------------------2 out of 10
+-----------------------------------------------Mindteck interview questions------------------------------------------------
 
-Introduce about yourself with roles and responsibilities?
+1)Tell me about yourself?
 
-Explain breifly about your project?
+2)Which type of modules you are using in python?
 
-If you want to transfer information or get what will you do?
+3)What is the difference between match and search method in REGEX?
 
-If you have any txt file in that particular word if you have json in that file i want how many json words are thire in that file print those?
+4)Can you write a small program like you can take any file name like that file contains n number of lines,so that I need how many times any one word present in that file?
+
+5)Print prime numbers between 1 to 100?
+
+6)Are you develope the test cases or regreesion test cases?
+
+7)Tell me difference between list and tuple?
+
+8)List_1 = [25,2,100,9,14,50] write a program to print 3rd largest element in the given list?
+
+9)Can you write a program using class how can you declare variables and objects?
+
+10)What is __init__ method in python?
+
+
+
