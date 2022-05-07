@@ -1,0 +1,488 @@
+1)Tell me about yourself?
+--I am I am a Python Automation Engineer with 2.10 years of experience. Currently working with Client Micron as system automation development 
+engineer to automate framework and environment and perform basic manual testing as a part of ownership of total conval execution for memory products. 
+Currently working in agile methodology.
+
+Python versions: Python 3.6
+Client Framework: MSV X
+Unit test Framework: Pytest 6.2, unittest basics
+Libraries used: paramiko, subprocess, winrm, openpyxl, JSON, nmap, re, time, requests, logging, random, pip, pylint, pprint 
+Repositories: Github 
+Tracking tools: Jira 
+Operational Methodologies: Agile
+API Testing tool: Postman 
+Tools: Beyond Compare, WinSCP, Confluence, Raritan 
+Operating System: Windows 7,10
+
+--Currently worked as Python Developer at client location TCS at sjm Towers, 18, Seshadri Rd, Gandhi Nagar, Bengaluru, 
+Karnataka 560009, under the payroll of Springsource Technologies
+
+2)Roles and responsibilities?
+--Client: Micron Technology 
+Project Names: System Automation
+Products: ELAN, EAGLE, EPIC 
+Devices: SSD, HDD, SRAM, DRAM 
+Framework: MSV X Environment: Python, Pytest Framework,Windows System Pool, Pycharm 
+Libraries: paramiko, subprocess, winrm, openpyxl, JSON, re, time, requests, logging, random, pip, pylint
+
+Project descripsion:
+Micron Technology is an American producer of computer memory and computer data storage mainly flash memory. Micron's internal framework called MSV 
+which used to aid the validation team to test various memory devices. We are from automation team, mainly works on framework development, enhancements 
+for automation in 2-week sprint cycle.
+
+Responsibilities:
+--Active member of the MSV Framework team responsible for conval execution and framework development and enhancements based on sprint deliverables.
+--Developed MSV execution module to trigger the execution. Used requests and subprocess modules to get available systems from Micron API and qualified 
+the test PCs based on smart parameters from Raritan webpages with selenium integration.
+--Ensured environment framework stability using pytest trigger before conval execution.
+--Based on qualification system availability, used paramiko to copy dependencies in Test PCs based on arguments from trigger input file.
+--Owned logger inspection part in framework to copy/delete files from host machine to mounted network folder using os and shutil modules and generate 
+total execution report based on test success or failure status and staged the report to conval dashboard. 
+--Used openpyxl module to generate execution report-based test execution logs. 
+--Used WinSCP and Putty for cross platform operations between windows and Linux. 
+--Extensively used regular expressions to ensure complex string requirements. 
+--Used subprocess and winrm to execute commands locally and remote hosts. 
+--Implemented logic for consuming and writing back data from various data input sources like Excel spreadsheets, and text files. 
+--Extensively used Pycharm IDE and postman for manual API testing. 
+--contributed by updating CAPA and documented wikis for unique issues based on categorization whether it is regression or test script issue or 
+Firmware issue. 
+--Familiar with testing methodologies like regression testing, automation testing, grey box test, alpha testing and beta testing and corresponding 
+processes. 
+--Familiar with sprint meetings and Software Development Life Cycle and working with a tracking tool like Jira dash board for reporting and tracking 
+conval issues. 
+--Working with github and good experience in creating code reviews and working with static analysis tools like pylint and coverage to make sure 
+quality code merged.
+
+3)What is the difference between lists and tuple?
+--Lists:
+  -Lists are mutable datatypes.
+  -List is dynamic in nature.
+  -Lists are heterogenious datatypes,it may consist int,float,strings inside it.
+  -List is the most appropriate compound data type for insertion and deletion.
+  -It is represented by [].
+  
+--Tuple:
+  -Tuples are immutable datatypes.
+  -Tuples is static in nature.
+  -It is represented by ().
+  -Tuple is best suitable for read-only operations like storing data and accessing data elements.
+  
+4)What are the difference between Match and search method in re module?
+--The re.match () method finds match if it occurs at start of the string. For example, calling match () on the string ‘TP Tutorials Point TP’ and 
+looking for a pattern ‘TP’ will match. The re.search () method is similar to re.match () but it doesn’t limit us to find matches at the beginning 
+of the string only.
+
+5)What is inheretance in python?
+--Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+Parent class is the class being inherited from, also called base class.
+
+Child class is the class that inherits from another class, also called derived class.
+
+
+6)What is generator?
+--A generator-function is defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword rather than 
+return. If the body of a def contains yield, the function automatically becomes a generator function.
+
+def simpleGeneratorFun():
+    yield 1            
+    yield 2            
+    yield 3            
+   
+# Driver code to check above generator function
+for value in simpleGeneratorFun(): 
+    print(value)
+	
+7)What is decorator?
+--Python can simplify the use of decorators with the @ symbol. This will output exactly the same, but is a cleaner way to write the code. 
+The call In both cases we apply the decorator to a function. Parameters can be used with decorators.
+
+8)What is iterator?
+Iterator in python is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets. The iterator object is initialized 
+using the iter() method. It uses the next() method for iteration.
+ 
+
+__iter(iterable)__ method that is called for the initialization of an iterator. This returns an iterator object
+next ( __next__ in Python 3) The next method returns the next value for the iterable. When we use a for loop to traverse any iterable object, 
+internally it uses the iter() method to get an iterator object which further uses next() method to iterate over. This method raises a StopIteration to 
+signal the end of the iteration.
+
+
+9)What are lambda funtions?
+--Python Lambda Functions are anonymous function means that the function is without a name. As we already know that the def keyword is used to define a 
+normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in Python. 
+
+example:lambda_cube = lambda y: y*y*y
+        print(lambda_cube(5))
+			
+Filter -- filter() function is built-in function that applies given function to each item of an iterable() and returns only a list of  filtered  True condition results.
+
+syntax:
+		a = [12,23,34,54,566,767,788,56,56,434]
+		result = list(fliter(lambda x : x % 2 == 0, a))
+
+Map -- map() function built-in function that applies given function to each item of an iterable() and returns of result with based on function logic.
+
+syntax:
+		a = [12,23,34,54,566,767,788,56,56,434]
+		result = list(fliter(lambda x : x ** 2, a))
+
+Reduce -- reduce() function built-in function that applies given function to each item of an iterable() and returns a single value.
+
+syntax: 
+		a = [12,23,34,54,566,767,788,56,56,434]
+		result = list(fliter(lambda x,y : x + y, a))
+
+10)What is __init__ method in python?
+--The __init__ method is similar to constructors in C++ and Java. Constructors are used to initialize the object’s state. The task of constructors is to 
+initialize(assign values) to the data members of the class when an object of class is created. Like methods, a constructor also contains collection of 
+statements(i.e. instructions) that are executed at time of Object creation. It is run as soon as an object of a class is instantiated. The method is 
+useful to do any initialization you want to do with your object.
+
+class Person:  
+    def __init__(self, name):  
+        self.name = name   
+    def say_hi(self):  
+        print('Hello, my name is', self.name)  
+
+p = Person('Mahesh')  
+p.say_hi()  
+
+11)What is MRO in python?
+--Method Resolution Order : 
+Method Resolution Order(MRO) it denotes the way a programming language resolves a method or attribute. Python supports classes inheriting from other
+ classes. The class being inherited is called the Parent or Superclass, while the class that inherits is called the Child or Subclass. In python, method 
+resolution order defines the order in which the base classes are searched when executing a method. First, the method or attribute is searched within a
+class and then it follows the order we specified while inheriting. This order is also called Linearization of a class and set of rules are called MRO
+
+
+12)What is meant by polymorphism in python?
+--Polymorphism means basically many forms.
+--The method should behave differently based up on inputs.
+
+13)What is comprehension?
+--Comprehensions in Python provide us with a short and concise way to construct new sequences (such as lists, set, dictionary etc.) 
+using sequences which have been already defined. Python supports the following 4 types of comprehensions:
+
+--List Comprehensions
+List Comprehensions provide an elegant way to create new lists.
+list_using_comp = [var**2 for var in range(1, 10)]
+
+--Dictionary Comprehensions
+Extending the idea of list comprehensions, we can also create a dictionary using dictionary comprehensions. The basic structure of a dictionary 
+comprehension looks like below.
+
+output_dict = {key:value for (key, value) in iterable if (key, value satisfy this condition)}
+
+--Set Comprehensions
+Set comprehensions are pretty similar to list comprehensions. The only difference between them is that set comprehensions use curly brackets { }. 
+Let’s look at the following example to understand set comprehensions.
+
+input_list = [1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 7]
+  
+set_using_comp = {var for var in input_list if var % 2 == 0}
+  
+print("Output Set using set comprehensions:",
+                              set_using_comp)
+
+--Generator Comprehensions
+Generator Comprehensions are very similar to list comprehensions. One difference between them is that generator comprehensions use circular brackets 
+whereas list comprehensions use square brackets. The major difference between them is that generators don’t allocate memory for the whole list. Instead, 
+they generate each value one by one which is why they are memory efficient.
+
+input_list = [1, 2, 3, 4, 4, 5, 6, 7, 7]
+  
+output_gen = (var for var in input_list if var % 2 == 0)
+  
+print("Output values using generator comprehensions:", end = ' ')
+  
+for var in output_gen:
+    print(var, end = ' ')
+
+14)What is the use of with in python?
+--with statement in Python is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources 
+like file streams.
+
+--without using with statement
+file = open('file_path', 'w')
+file.write('hello world !')
+file.close()
+
+--using with statement
+with open('file_path', 'w') as file:
+    file.write('hello world !')
+
+15)Which modules you have been used?
+--We have used different types of modules in our day to day deliverables.
+  Paramiko, subprocess, winrm, openpyxl, JSON, nmap, re, time, requests, logging, random, pip, pylint, pprint
+
+16)What are namespaces in python(LEGB rule)?
+it is depend upon the location where the varible is being declared.the varible declared in one part of the program  may not be accessible to the other parts.
+
+LEGB:
+Local -- Enclosed -- Global -- Buit-in
+-- Local : variable not declared global or assigned in a function.
+-- Enclosed : variable defined in a function that wrapped inside another function.
+-- Global : variable declared global, or assigned at the top-levl of file.
+-- Built-in : variable preassigned in the built-in names module.
+
+17)Explain about pytest?
+
+-- Install pytest using pip install pytest
+-- Simple pytest program and run it with py.test command.
+-- Assertion statements, assert x==y, will return either True or False.
+-- How pytest identifies test files and methods.
+-- Test files starting with test_ or ending with _test
+-- Test methods starting with test
+-- py.test command will run all the test files in that folder and subfolders. To run a specific file, we can use the command py.test <filename>
+-- Run a subset of test methods
+-- Grouping of test names by substring matching.py.test -k <name> -v will run all the tests having <name> in its name.
+-- Run test by markers.Mark the tests using @pytest.mark.<name> and run the tests using pytest -m <name> to run tests marked as <name>.
+-- Run tests using py.test -n NUM where NUM is the number of workers
+-- Creating fixture methods to run code before every test by marking the method with @pytest.fixture
+-- The scope of a fixture method is within the file it is defined.
+-- A fixture method can be accessed across multiple test files by defining it in conftest.py file.
+-- A test method can access a Pytest fixture by using it as an input argument.
+-- Parametrizing tests to run it against multiple set of inputs.
+-- @pytest.mark.parametrize(“input1, input2, output”,[(5,5,10),(3,5,12)])
+-- def test_add(input1, input2, output):
+-- assert input1+input2 == output,”failed”
+-- will run the test with inputs (5,5,10) and (3,5,12)
+-- Skip/xfail tests using @pytets.mark.skip and @pytest.mark.xfail
+
+-- Create test results in XML format which covers executed test details using py.test test_sample1.py -v –junitxml=”result.xml”
+-- A sample pytest framework to test an API
+-- Run tests in parallel
+-- Install pytest-xdist using pip install pytest-xdist
+
+
+18)What is the use of pylint?
+--Pylint is used for the checking the good quality of code
+
+19)What is meant by JSON module?
+1.JSON ?
+
+-- JSON stands for JavaScript Object Notation & we import the JSON package in Python script
+-- It is used for storing and transferring data between browser and server
+-- In JSON the text will be in double quotes as key-value pair within { }, it is similar to dictionary in Python
+-- JSON Syntax - {"key":"value"}
+-- JSON supports primitive types like strings and numbers, as well as nested lists, tuples, and objects 
+
+-- Serializing/Encoding JSON(dump )? 
+
+-- The process of encoding JSON is called serialization
+
+    (1)To Convert from dictionary to JSON  -- json.dumps() method is used 
+       Syntax : json.dumps(dict, indent)
+	   
+	(2)For Writing JSON to a file  --  json.dump() method is used
+       Syntax : json.dump(dict, file_object, indent)
+
+-- Deserializing/Decoding JSON(load)? 
+
+-- The process of decoding JSON is called deserialization
+
+   (1)To Convert from JSON to Python  --  json.loads() method is used
+      Syntax : json.loads(json_string)
+	  
+   (2)To read JSON file  --  json.load() method is used
+      Syntax : json.load(file_object)
+
+
+20)What is File Handling?
+
+-- Python supports file handling and allows users to read and write files
+-- Each line of a file is terminated with a special character called EOL {,}
+
+-- Working of open() : Before performing any operation on the file like read or write, we have to use Python inbuilt function open() to open the file
+   Synatax : f = open(filename, mode)
+   
+-- There are different modes to perform the operations like:
+
+    r: open an existing file for a read operation.
+	Syntax : file = open("file.text", "r")
+             print (file.read())
+			 
+    w: open an existing file for a write operation, if the file already contains data then it will be overridden. 
+	Syntax : file = open("file.txt","w")
+             print(file.write())
+             file.close()
+			 
+    a: open an existing file for append operation, it won’t override existing data.
+	Syntax : file = open("file.txt","a")
+             print(file.write())
+             file.close()
+			 
+   r+: To read and write data into the file, the previous data in the file will not be deleted.
+   Syntax : file = open("file.txt","r+")
+             print(file.write())
+             file.close()
+			 
+   w+: To write and read data, it will override existing data.
+   Syntax : file = open("file.txt","w+")
+             print(file.write())
+             file.close()
+			 
+   a+: To append and read data from the file, it won’t override existing data. 
+   Syntax : file = open("file.txt","a+")
+             print(file.write())
+             file.close()
+
+-- Using write along with the with() function:
+   Syntax : with open("file.txt", "w") as f:
+            print(f.write())
+			
+
+-- split() function using file handling: 
+   We can also split lines using file handling
+   Syntax : with open("file.text", "r") as file:
+            data = file.readlines()
+            for line in data:
+            word = line.split()
+            print(word)
+			
+			
+
+21)Subprocess Module?
+
+-- It is used to run new applications or programs through Python code by creating new process.
+-- Popen() method is used to give the command and we will get the output.
+-- It helps to obtain the stdin/stdout/stderr/return code as well as the exist codes of various commands
+-- syntax: output = subprocess.run("ping www.google.com", stdout=subprocess.PIPE, encoding="utf-8", shell=True)
+-- We have run method in subprocess:
+   - First argument is input/command
+   - Second argument is output of the command
+   - Third argument is Encoding (bytes to string)
+   - Next it will check the shell(as python program to execute this command on command prompt)
+   - It will check whether it is stdout/stderr /return code 
+   - return always should be non-zero, it means command executed successfully.
+   
+   
+   
+22)What is meant by GITHUB?
+
+-- GitHub is a code hosting platform for collaboration and helps us to work with others on projects
+
+-- GitHub essentials are:
+
+   - Repositories
+   - Branches
+   - Commits
+   - Pull Requests/Merge Requests
+   
+   
+-- Repositories:
+   - It is used to store code/files to push/maintain/publish/review/pull code.  
+   - It contain folders and any type of files like HTML, CSS, JavaScript, Documents, Data, Images
+   
+-- Branches:
+   - A GitHub branch is used to work with different versions of a repository at the same time.
+   - By default a repository has a master branch
+   - Any other branch is a copy of the master branch
+   - New Branches are for bug fixes and feature work separate from the master branch. 
+   - When changes are ready, they can be merged into the master branch. 
+   - If you make changes to the master branch while working on a new branch, these updates can be pulled in. 
+
+-- Commits:
+   - At GitHub, changes are called commits.
+   - Each commit/changes has an explaination why a change was made.
+   
+-- Pull Requests/Merge Requests:
+   - Pull Requests are the heart of GitHub collaboration.
+   - With a pull request your changes will be merged (pulled in) with the master.
+   - Pull requests show content differences, changes, additions, and subtractions in colors (green and red).
+   - As soon as you have a commit, you can open a pull request and start a discussion, even before the code is finished.   
+   
+-- Process in usage of GIT: 
+  
+   - git clone -It is used for downloading the code for first time
+   - git pull origin main - It is used to get the added files/code 
+   
+***** To do any changes: 
+
+   - git branch branch_name - We need to enter the repository name
+   - git diff - It shows the difference
+   - git status - It shows the difference
+   - git add . - Adding your changed files
+   - git commit -m "Date_"
+   - git push origin branch_name
+
+23)What is meant by Paramiko?
+
+-- To transfer a file from local server to remote server & vice-versa using paramiko module in python
+-- On windows to install paramiko use , pip install paramiko in command prompt
+-- SSH is the method typically used to access a remote machine and run commands, retrieve files or upload files.
+-- You can transfer files using SFTP (Secure File Transfer Protocol) and SCP(Secure Copy Protocol).
+-- MAKING A CONNECTION : 
+		import paramiko
+		ssh_client=paramiko.SSHClient()
+		ssh_client.connect(hostname=’hostname’,username=’username’,password=’mypassword’,port='')
+
+-- Downloading a file from remote machine
+
+		sftp_client=ssh_client.open_sftp()
+		sftp_client.get(‘remotefileth’,’localfilepath’)
+		sftp_client.close()
+		
+		
+-- Uploading file from local to remote machine
+		sftp_client=ssh_client.open_sftp()
+		sftp_client.put(‘localfilepath’,remotefilepath’)
+		sftp_client.close()
+
+
+24)What are the levels in logging module?
+--There are 5 levels of logging module
+logging.basicConfig(filename="", level="", format="")
+logging.debug()
+logging.info()
+logging.warning()
+logging.critical()
+logging.errors()
+
+
+25)Why you are using random and what is the purpose of it?
+--Python Random module is an in-built module of Python which is used to generate random numbers. These are pseudo-random numbers means these are not truly 
+random. This module can be used to perform random actions such as generating random numbers, print random a value for a list or string, etc.
+
+Example:import random
+  
+# prints a random value from the list
+list1 = [1, 2, 3, 4, 5, 6]
+print(random.choice(list1))
+
+26)What is API testing?
+--API testing is a type of software testing where application programming interfaces (APIs) are tested to determine if they meet expectations for 
+functionality, reliability, performance, and security. In simple terms, API testing is intended to reveal bugs, inconsistencies or deviations from the 
+expected behavior of an API.
+
+27)What is the purpose of git stash command in github?
+--The git stash command saves a copy of your uncommitted changes in a queue, off to the side of your project.
+--By uncommitted changes, I mean items in either the staging area or the working directory that have been modified but not committed to the local repository.
+--Each time the stash command is invoked and there is uncommitted content (since the last stash command), git creates a new element on the queue to save that 
+content. That content can be in the staging area, in the working directory, or both.
+--After creating the stash and saving the uncommitted content, Git is basically doing a git reset --hard HEAD operation. However, because you have the stash, 
+you haven't lost your uncommitted changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
