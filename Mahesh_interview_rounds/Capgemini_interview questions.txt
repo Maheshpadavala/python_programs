@@ -1,0 +1,27 @@
+---------------------------------------------Capgemini interview questions-----------------------------------------
+
+
+1)Breifly introduce yourself?
+
+2)Difference between regression testing and re-testing?
+
+3)Difference between alpha and beta testing?
+
+4)Tell me about if and elif condition?
+
+5)Write a program with if and elif?
+
+6)Can you create infinite for loop write a program?
+
+7)List_1 = [1,2,3,4,5,6,7,8,9,10]
+
+write a program with using comprehension i want squares with positive and cubes with negative.
+
+8)I want gmail id from the below string,
+     string="This is my number 833 and pytho@gmail.com its fine"
+	 
+9)What is inheritence and explain how many methods are having in inheritence?
+
+10)Write a program of MRO method?
+
+11)Sort the given list, lst=[1,22,'d','cd',5,-5,555]?

@@ -1,0 +1,32 @@
+---------------------------------------------Tech mahendra interview-----------------------------------------
+
+1)Tell me about yourself?
+
+2)Explain breifly about your project?
+
+3)Can you explain one test case where you felt challenging when you are automated?
+
+4)In some times you face some difficulties right where you got perticularly difficult to automate?
+
+5)You will be writing some information to the storage then you will be reading back and see like success or not how it will be?
+
+6)What are the various memory devices you are testing?
+
+7)How do you write the data to SSD?
+
+8)What is the media between python and SSD?
+
+9)Write a program match the email id using regex?
+
+10)Write a program on zip method?
+
+11)Can you explain the test scripts or any senorios what you have done in your project?
+
+12)You can take like vedio or audio system if you want to test the product what are all test cases would you create for that audio system?
+
+13) Multiply 2 matices?
+
+
+
+
+
