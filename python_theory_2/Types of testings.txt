@@ -1,0 +1,93 @@
+Types of Software Testing:
+
+Introduction:
+
+Testing is the process of executing a program with the aim of finding errors. To make our software perform well it should be error-free. If testing is done successfully it will 
+remove all the errors from the software.
+
+Types of testing:
+
+1. Unit Testing
+It focuses on the smallest unit of software design. In this, we test an individual unit or group of interrelated units. It is often done by the programmer by using sample input and 
+observing its corresponding outputs.
+
+2. Integration Testing
+The objective is to take unit tested components and build a program structure that has been dictated by design. Integration testing is testing in which a group of components is 
+combined to produce output. 
+
+a)Black box testing:It is a software testing method in which the implementation of the item being tested is not known to the tester.
+--Mostly done by software tester.
+
+b)White box testing:It is a software testing method in which the implementation of the item being tested is known to the tester.
+--Mostly done by software developer.
+
+3. Regression Testing
+Every time a new module is added leads to changes in the program. This type of testing makes sure that the whole component works properly even after adding components to the complete 
+program. 
+
+4. Smoke Testing
+This test is done to make sure that software under testing is ready or stable for further testing 
+It is called a smoke test as the testing an initial pass is done to check if it did not catch the fire or smoke in the initial switch on. 
+
+5. Alpha Testing
+This is a type of validation testing. It is a type of acceptance testing which is done before the product is released to customers. It is typically done by QA people. 
+
+6. Beta Testing
+The beta test is conducted at one or more customer sites by the end-user of the software. This version is released for a limited number of users for testing in a real-time environment 
+
+7. System Testing
+This software is tested such that it works fine for the different operating systems. It is covered under the black box testing technique. In this, we just focus on the required 
+input and output without focusing on internal working.
+
+8. Stress Testing
+In this, we give unfavorable conditions to the system and check how they perform in those conditions. 
+
+(a) Test cases that require maximum memory or other
+    resources are executed
+(b) Test cases that may cause thrashing in a virtual 
+    operating system
+(c) Test cases that may cause excessive disk requirement
+
+9. Performance Testing
+It is designed to test the run-time performance of software within the context of an integrated system. It is used to test the speed and effectiveness of the program. It is also 
+called load testing. In it we check, what is the performance of the system in the given load.
+
+10. Object-Oriented Testing
+This testing is a combination of various testing techniques that help to verify and validate object-oriented software. This testing is done in the following manner: 
+
+Testing of Requirements,
+Design and Analysis of Testing,
+Testing of Code,
+Integration testing,
+System testing,
+User Testing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
