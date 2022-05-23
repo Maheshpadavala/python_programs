@@ -1,0 +1,17 @@
+----------------------------------------------------------Quest global interview----------------------------------------------------
+
+1)Breifly introduce yourself?
+
+2)What is your role?
+
+3)You have any experience in UA automation?
+
+4)You have any experience in API?
+
+5)You know any idea about selenium?
+
+6)Write a program if string_1="Hello welcome to python"?
+expexted_string = "HellO WelcomE TO PythoN"
+
+7))list_2 = ["a","b","g","v","f","r","g"] sort the list?
+
