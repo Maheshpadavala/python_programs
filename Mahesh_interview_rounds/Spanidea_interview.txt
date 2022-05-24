@@ -1,0 +1,27 @@
+--------------------------------------------------Spanidea first round intervew-------------------------------------------------
+
+1)Breifly explain about yourself?
+
+2)Write a program to print weather the number is prime number or not?
+
+3)What is difference between array and list?
+
+4)Explain about access specifiers in python?
+
+5)Can you swap 2 variables without using another variable?
+
+6)What is memory management in python?
+
+7)can you access parent class methods without creating an object?
+
+8)What is constructor in python?
+
+9)Can you append elements in tuple?
+
+10)Can you explain about __main__ ?
+
+11)What is exception handling?
+
+
+
+
