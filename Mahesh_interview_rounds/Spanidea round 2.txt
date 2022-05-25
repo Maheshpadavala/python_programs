@@ -1,0 +1,28 @@
+--------------------------------------------------Spanidea second round intervew-------------------------------------------------
+
+1)Have you done any work on framework?
+
+2)How do you define an Automation framework?
+
+3)How do you checking code quality here by using pylint?
+
+4)So what do you look into the framework what did you do?
+
+5)When you talk about the automation framework basically what is used for Automating the test cases?
+
+6)Suppose you are running the test case it stops abruptly it stop how will you face?
+
+7)While you are running the test case might stop for many reasons can you give me top 5 reasons?
+
+8)For running the script before the script completed you run out of memory how you will solve that?
+
+9)Write a program to access the file from remote mechine?
+
+10)list_ = [2,6,43,85,0,10,8]
+if i give n1 output should be 85,if i give n2 output should be 43 like that i want output
+
+11)list_2 = [1,2,3,4,5,6,7,8]
+list_2[1::2] i want output?
+
+
+
