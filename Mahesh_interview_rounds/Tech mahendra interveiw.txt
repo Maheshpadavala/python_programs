@@ -1,0 +1,25 @@
+-------------------------------------------------------------Tech mahendra interview----------------------------------------------------
+
+1)Tell me about yourself and your experience?
+
+2)What are things your going to test and roles and responsibilities?
+
+3)You are testing sdd and hhd devices what are the operations you are doing?
+
+4)Do you use any framework can you explain about that framework?
+
+5)Why do you use subproccess module?Can you explain tha methods in it?
+
+6)Just write a syntax how you use subprocess?
+
+7)Can you explain here what is shell = true?
+
+8)string = "This is an apple" i want to find the highest length of the word in given string?
+
+9)list = [5,10,8,16] try to sort the given list?
+
+10)string = "india is my country and i love my country" find the number of occurance of country by using regex?
+
+
+
+

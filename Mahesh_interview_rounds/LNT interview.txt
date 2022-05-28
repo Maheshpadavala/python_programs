@@ -1,0 +1,47 @@
+-------------------------------------------------------------LNT interview----------------------------------------------------
+
+1)Breifly tell me about yourself and roles and responsibilities?
+
+2)If you have an python code and how will implement multithreading?
+
+3)What do mean by multithreading if yo have any string like mahesh how will you do that?
+
+4)If i need to send any multiple notes how will you do in python?
+
+5)Is it good to have multithreding in term of performance like it can speed up you python code?
+
+6)Do you have any idea about the indexing in python can you explain?
+
+7)If i say the i have negative index can you explain that?
+
+8)If i have a list with 11 items i want to pick the items from 5th and 6th place?
+
+9)If i want to get last 3 elements how will you get?
+
+10)What about the higher order funtions in python?
+
+11)If i have variable a and i wand creat string how can you do that?
+
+12)Task is to get perticular keywords from a string how we can get those?
+
+13)Apart from user defined funtion what is some other posibilities to do so very fast ,i dont want to use userdefined funtion how will you do that?
+
+14)Tell me that what is the difference between lambda funtion and user defined funtion?
+
+15)What is memory management in python?
+
+16)Do you know that if there is any issue occures how i can do the flushing memory?
+
+17)Just in case even after garbage collecter collect the unused memory it is showing an issue how will you do that?
+
+18)Tell me about heap memory how it is allocated where to use how to use?
+
+19)You know what is leckmen sequence?It is like you want to creat a sequence like you need to produce a sequence?Produce a list just creat a sequence?
+
+20If i have a list containing 1,2,3 and i want add some elements to that list how you can do that?
+
+21)If i give user input 10 i want output like 10 elements from 1 to 10?
+
+22)Their are 41 persons 1 will kill 2 and,3 will kill 4 likewise write a program for it?
+
+23)Double each item in the list using the lambda map fuction?

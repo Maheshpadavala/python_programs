@@ -1,0 +1,12 @@
+-------------------------------------------------------------Career net interview----------------------------------------------------
+1)Breifly tell me about yourself and roles and responsibilities?
+
+2)Are you passed out which year?
+
+3)Match camlecase letter by using regex?
+
+4)list_1 = [0,0,1,1,1,1,2,2,3,3,4] remove duplicatesCan you explain manual tet without using taking another list or any builtin funtions?
+
+5)Can you tell me that manual test case scenarios for gmail login?
+
+
