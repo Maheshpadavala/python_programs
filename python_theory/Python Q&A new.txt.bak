@@ -1,8 +1,8 @@
                                                  Important questions for interview
 
 1)What is string?
---String is an sequence of characters.They are immutable,i.e,they cannot be change.
---Strings in Python can be created using single quotes or double quotes or even triple quotes.
+Strings in Python can be created using single quotes or double quotes or even triple quotes.
+String is an sequence of characters.They are immutable,i.e,they cannot be change.
 
 Assigning string to the variable.
 a="This is a string"
@@ -10,19 +10,21 @@ print(a)
 output:
 This is a string
 
-2)Is Python a compiled language or an interpreted language?
+
+
+Is Python a compiled language or an interpreted language?
 
 Actually, Python is a partially compiled language and partially interpreted language. The compilation part is done first when we execute our code
 and this will generate byte code and internally this byte code gets converted by the python virtual machine(p.v.m) according to the underlying 
 platform(machine+operating system).
 
 
-3)Important differences between Python 2.x and Python 3.x ?
+3)Important differences between Python 2.x and Python 3.x with examples
 
+Python 3 syntax is simpler and easily understandable whereas Python 2 syntax is comparatively difficult to understand.
 Python 3 exceptions should be enclosed in parenthesis while Python 2 exceptions should be enclosed in notations.
 Python 3 rules of ordering comparisons are simplified whereas Python 2 rules of ordering comparison are complex.
 Python 3 offers Range() function to perform iterations whereas, In Python 2, the xrange() is used for iterations.
-Python 3 syntax is simpler and easily understandable whereas Python 2 syntax is comparatively difficult to understand.
 
 4)How memory management is done in Python?
 Python uses its private heap space to manage the memory. Basically, all the objects and data structures are stored in the private heap space.
@@ -47,16 +49,16 @@ List is an mutable datatype,i.e, we can change elements in the list.Lists are he
 
 Methods in lists are in below: 
 
-append() Add an element to the end of the list.
-extend() Add all elements of a list to another list.
-insert() Insert an item at the defined index.
-remove() Removes an item from the list.
-pop() Removes and returns an element at the given index.
-clear()	Removes all items from the list.
-index()	Returns the index of the first matched item.
-count()	Returns the count of the number of items passed as an argument.
-sort() Sort items in a list in ascending order.
-reverse()	Reverse the order of items in the list
+Append() Add an element to the end of the list.
+Extend() Add all elements of a list to another list.
+Insert() Insert an item at the defined index.
+Remove() Removes an item from the list.
+Pop() Removes and returns an element at the given index.
+Clear()	Removes all items from the list.
+Index()	Returns the index of the first matched item.
+Count()	Returns the count of the number of items passed as an argument.
+Sort() Sort items in a list in ascending order.
+Reverse()	Reverse the order of items in the list
 copy()	Returns a copy of the list
 
 
@@ -104,10 +106,12 @@ The beauty of the final block is to execute the code after trying for error. Thi
  
  
 13)Define encapsulation in Python?
+
 Encapsulation means process of wrapping up of varaiable and method in single entity.
 
 
 14)What is Polymorphism in Python?
+
 Polymorphism means the ability to take multiple forms. So, for instance, if the parent class has a method named ABC then the child class
  also can have a method with the same name ABC having its own parameters and variables. Python allows polymorphism.
  
@@ -496,9 +500,7 @@ with open('file_path', 'w') as file:
 
 
 46)What is the use of pylint?
---Pylint is used for the checking the good quality of code.
---Pylint has the ability to scan for programming errors, implement coding standards, identify code violation and provide refactoring proposals. 
---Pylint is fully customizable by the user, with integral special functions to control individual errors and alerts within the user’s code.
+--Pylint is used for the checking the good quality of code
 
 47)What is meant by JSON module?
 1.JSON ?
