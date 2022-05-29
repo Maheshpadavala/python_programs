@@ -1,0 +1,949 @@
+                                                 Important questions for interview
+
+1)What is string?
+Strings in Python can be created using single quotes or double quotes or even triple quotes.
+String is an sequence of characters.They are immutable,i.e,they cannot be change.
+
+Assigning string to the variable.
+a="This is a string"
+print(a)
+output:
+This is a string
+
+
+
+Is Python a compiled language or an interpreted language?
+
+Actually, Python is a partially compiled language and partially interpreted language. The compilation part is done first when we execute our code
+and this will generate byte code and internally this byte code gets converted by the python virtual machine(p.v.m) according to the underlying 
+platform(machine+operating system).
+
+
+3)Important differences between Python 2.x and Python 3.x with examples
+
+Python 3 syntax is simpler and easily understandable whereas Python 2 syntax is comparatively difficult to understand.
+Python 3 exceptions should be enclosed in parenthesis while Python 2 exceptions should be enclosed in notations.
+Python 3 rules of ordering comparisons are simplified whereas Python 2 rules of ordering comparison are complex.
+Python 3 offers Range() function to perform iterations whereas, In Python 2, the xrange() is used for iterations.
+
+4)How memory management is done in Python?
+Python uses its private heap space to manage the memory. Basically, all the objects and data structures are stored in the private heap space.
+Even the programmer can not access this private space as the interpreter takes care of this space. Python also has an inbuilt garbage collector, 
+which recycles all the unused memory and frees the memory and makes it available to the heap space.
+
+
+5)Scope resolution via LEGB rule :
+In Python, the LEGB rule is used to decide the order in which the namespaces are to be searched for scope resolution.
+The scopes are listed below:
+
+Local(L): Defined inside function/class
+Enclosed(E): Defined inside enclosing functions(Nested function concept)
+Global(G): Defined at the uppermost level
+Built-in(B): Reserved names in Python builtin modules.
+
+
+6)What is list?
+I
+n list elements are saperated by commas and enclosed by square brackets.
+List is an mutable datatype,i.e, we can change elements in the list.Lists are heterogeneous datatype it contains string,integer,float.
+
+Methods in lists are in below: 
+
+Append() Add an element to the end of the list.
+Extend() Add all elements of a list to another list.
+Insert() Insert an item at the defined index.
+Remove() Removes an item from the list.
+Pop() Removes and returns an element at the given index.
+Clear()	Removes all items from the list.
+Index()	Returns the index of the first matched item.
+Count()	Returns the count of the number of items passed as an argument.
+Sort() Sort items in a list in ascending order.
+Reverse()	Reverse the order of items in the list
+copy()	Returns a copy of the list
+
+
+7)Difference between list and tuple?
+
+list:
+Lists are Mutable datatype.
+Lists consume more memory
+The list is better for performing operations, such as insertion and deletion.
+Implication of iterations is Time-consuming.
+
+Tuple:
+Tuples are Immutable datatype.
+Tuple consume less memory as compared to the list
+Tuple data type is appropriate for accessing the elements
+Implication of iterations is comparatively Faster.
+
+
+8)What is __init__() in Python?
+Equivalent to constructors in OOP terminology, __init__ is a reserved method in Python classes. The __init__ method is called automatically
+ whenever a new object is initiated. This method allocates memory to the new object as soon as it is created. This method can also be used to 
+ initialize variables.
+
+
+9)What is the maximum possible length of an identifier?
+Identifiers in Python can be of any length.
+
+
+10)What is PIP?
+PIP is an acronym for Python Installer Package which provides a seamless interface to install various Python modules. It is a command-line
+ tool that can search for packages over the internet and install them without any user interaction.
+ 
+
+11)What does ‘#’ symbol do in Python?
+‘#’ is used to comment out everything that comes after on the line.
+
+
+12)How is Exceptional handling done in Python?
+
+There are 3 main keywords i.e. try, except, and finally which are used to catch exceptions and handle the recovering mechanism accordingly.
+ Try is the block of a code which is monitored for errors. Except block gets executed when an error occurs.
+
+The beauty of the final block is to execute the code after trying for error. This block gets executed irrespective of whether an error
+ occurred or not. Finally block is used to do the required cleanup activities of objects/variables.
+ 
+ 
+13)Define encapsulation in Python?
+
+Encapsulation means process of wrapping up of varaiable and method in single entity.
+
+
+14)What is Polymorphism in Python?
+
+Polymorphism means the ability to take multiple forms. So, for instance, if the parent class has a method named ABC then the child class
+ also can have a method with the same name ABC having its own parameters and variables. Python allows polymorphism.
+ 
+ 
+15)Does Python supports multiple Inheritance?
+
+Python does support multiple inheritance, unlike Java. Multiple inheritance means that a class can be derived from more than one parent classes.
+
+
+16)What are the new features added in Python 3.8 version?
+
+Following are the new features in Python 3.8 version:
+
+Positional Only parameter(/)
+Assignment Expression(:=)
+f-strings now support “=”
+reversed() works with a dictionary
+
+
+17)What is swapcase function in Python?
+
+It is a string’s function that converts all uppercase characters into lowercase and vice versa. It is used to alter the existing case of the string. 
+This method creates a copy of the string which contains all the characters in the swap case. For Example:
+
+string = "GeeksforGeeks"
+string.swapcase() ---> "gEEKSFORgEEKS".
+
+
+18)What is a pass in Python?
+
+Pass means performing no operation or in other words, it is a place holder in the compound statement, where there should be a blank left and nothing
+ has to be written there.
+ 
+
+19)What is namespace in Python?
+
+A namespace is a naming system used to make sure that names are unique to avoid naming conflicts.
+
+
+20)What is a lambda function?
+
+A lambda function is an anonymous function. This function can have any number of parameters but, can have just one statement. For Example:
+
+a = lambda x, y : x*y
+print(a(7, 19))
+
+
+
+22)What is the difference between Set and Dictionary?
+
+Set is an unordered collection of data type that is iterable, mutable, and has no duplicate elements.
+Dictionary in Python is an unordered collection of data values, used to store data values like a map.
+
+
+23)What is the difference between Mutable datatype and Immutable datatype?
+
+Mutable data types can be edited i.e., they can change at runtime. Eg – List, Dictionary, etc.
+Immutable data types can not be edited i.e., they can not change at runtime. Eg – String, Tuple, etc.
+
+24) What are Decorators?
+
+Decorators are a very powerful and useful tool in Python 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+1.Compiler? 
+high level language convert to lower level language.it execute whole program at a time 
+ 
+2.Interpreter? 
+high level language convert to lower level language or assembly language or binary language.it execute each line by 
+line. 
+ 
+3.What is Python? 
+--high level programming language 
+--general purpose language 
+--interpreted language 
+--dynamic and powerful language 
+--Object Oriented Programming Language(OOP) 
+ 
+4.Advantages of python? 
+--python code syntax is readable and understable. 
+--application development with python language is very fast. 
+--python is developer friendly language. 
+ 
+5.Features? 
+--easy to learn and use 
+--expressive language 
+--interpreted language 
+--cross-platform language 
+--free and open source 
+--object - oriented language 
+--extensible 
+--large standard libary 
+--GUI programming support 
+--intergated 
+ 
+6.Python applications? 
+--web applications 
+django 
+flask 
+--desktop GUI applications 
+pyQT 
+Tkinter 
+Kivy 
+--general purpose applications 
+scripting 
+automation 
+networking 
+--scientific, data science,Machine Learning & AI applications 
+numpy 
+pandas 
+matplotlib 
+scikit-learn 
+--business applications 
+trython 
+ 
+7.Versions? 
+--python 1.0 
+--python 2.0 
+--python 2.7 major version 
+--python 3.0 present version 
+ 
+8.Algorithm? 
+algorithm is a step by step procedure to complete a given task. 
+ 
+9.What is variable? 
+--a variable is a name given to a memory location which stores given data. 
+--you can store data in variable and you can retrive the data from variable. 
+--variable consist of a-z or A-Z or 0-9 or _. 
+--first letter should not contain number. 
+--should not use keywords as varibles 
+--case sensitive difference A or a. 
+--no need declaration of data type. 
+--declaration a = 10, a= b= c= 10 , a,b,c = 10,20,30 
+ 
+10.Python comment? 
+comments are user written words in a program which shows purpoose of the code. 
+--single line comment '#' 
+--multi-line comment """ """,''' ''',three single or double line quotes. 
+ 
+11.Indentation? 
+indentation is used to represent a block of code. 
+ 
+12.Datatype? 
+datatype refers to different kinds of data that can be assign to a variable. 
+ 
+13.Different types of datatypes? 
+number (int,float,complex) -mutable, 
+strings "python",'python',"""python.....""" -immutable, 
+list [1,2,3,"a","b"] -mutable, 
+tuple (1,2,"a","b") -immutable, 
+dictinory {"a":1,"b":2,"c":"python"} -mutable, 
+set {1,2,3,4,5} -mutable. 
+ 
+14.Operator? 
+operator is a symbol which indicates a particular operation between operands. 
+ 
+15. Different types of operators? 
+-- arithmetic (=,-,*,/,%,//,**) 
+-- comparision (==,!=,>,<,<=,>=,<>) 
+-- assignment (=,+=,-=,*=,/=,//=,%=,**=) 
+-- logical (and, or, not) 
+-- bitwise (&,|,~,^,<<,>>) 
+-- membership (in ,not in) 
+-- identity (is,is not) 
+ 
+16.Arithmetic operator? 
+operators are used to perform operations between two operands. 
+ 
+17.Comparision operator? 
+opertors are used to comparing the value of the two operands and return boolean. 
+ 
+18.Assigment operator? 
+operator are used to assign a value to a variable. 
+ 
+19.Logical operator? 
+operator are used to evaluvate a given expression to boolean. 
+ 
+20.Bitwise operator? 
+operator are used to perform bit by bit operation among given operands. 
+ 
+21.Membership operator? 
+operatorare used to check whether given value is exits or not in a list or tuple, if the value exits in the data structure t
+hen returns boolean. 
+ 
+22.Identity operator? 
+operator are used to check the address refernce of two varibles is same or not. 
+ 
+23.String? 
+string is a datatype are enclosed in a single or double or three single or three double quotes. 
+--string is immutable 
+ 
+24.Operator used in string? 
+-- + --concationation 
+-- * --repetition of string 
+-- [] --slicing,access the sub-string 
+-- [:] --range slice operator,accessing the sub-string 
+-- in --membership,it return particular char in string 
+-- not in --membership,it return particular char not in string 
+-- {} --using in string formatting 
+-- % --%s(string),%d(integer),%f(float) 
+ 
+25.Methods in string? 
+methods are used by varible.method 
+-- len() 
+-- find() 
+-- lower() 
+-- lstrip() 
+-- replace(old,new) 
+-- rstrip() 
+-- split() 
+-- swapcase() 
+-- upper() 
+ 
+26.What is list? 
+list can be defined as a collection of values or items of different datatypes.each item separeted by (,) and eclosed wit
+h [].it is mutable. 
+ 
+27.List methods? 
+-- indexing[] 
+-- slicing[:] 
+-- index[] = value (inserting value by index) 
+-- del index[] (deleting value by index) 
+ 
+28.List operations? 
+-- * for repetition 
+-- + for concationation 
+-- in,not in membership 
+-- for loop iteration 
+ 
+29.Bulit-in functions? 
+-- len() 
+-- max() 
+-- min() 
+-- list() 
+-- list.append() 
+-- list.clear() 
+-- list.copy() 
+-- list.count() 
+-- list.remove() 
+-- list.reverse() 
+-- list.sort() 
+ 
+30.What is tuple? 
+it is a collection of values or items separeted by comma and enclosed with parenthasis.
+
+31.Tuple methods?
+-- indexing[]
+-- slicing[:]
+
+32.Bulit-in functions?
+-- len()
+-- max()
+-- min()
+-- tuple()
+
+33.What is Dictionary?
+it is a data types having key-value pair separated by commas and enclosed with curly braces.
+
+34.Dictionary methods?
+-- dict['key']         - accessing the value through key
+-- dict['key'] = value - changing the value of a key
+-- dict.keys()           - accessing keys
+-- dict.values()         - accessing values
+-- dict.items()          - accessing key-value
+-- del dict['key']     - deleting key- value by key
+-- dict.clear()        - clear dictinory
+-- dict.copy()		   - copy dictinory	
+-- dict.update()	   - update dictinory	
+-- for i in dict:      - iteration of dictinory
+	
+	for key in dict1.keys():
+	for value in dict1.values():
+	for item in dict1.items():
+
+
+
+35.What is set?
+it can be defined as the unordered collection of various items enclosed with curly braces.the elements of the set can not be duplicate.
+ther is no index attached to the element of the set i.e., we cannot directly access any element of the set by the index.
+
+36.Methods of set?
+-- set.add('element')
+-- set.update(['element1','element2'])
+-- set.remove('element')
+-- set.union('set2')
+-- set.intersetion('set2')              
+-- frozenset()                        
+
+36)What is the difference between Mutable datatype and Immutable datatype?
+
+Mutable data types can be edited i.e., they can change at runtime. Eg – List, Dictionary, etc.
+Immutable data types can not be edited i.e., they can not change at runtime. Eg – String, Tuple, etc.
+
+37)What is Pickling and Unpickling?
+
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using the dump function,
+ this process is called pickling. While the process of converting string representation into python object is called unpickling.
+ 
+38)What is PEP 8?
+
+PEP 8 is a Python enhancement proposal. It is a document that provides the guidelines and best practices on how to write beautiful Python code.
+It promotes a very readable and eye-pleasing coding style.
+
+39)What is MRO in python?
+--Method Resolution Order : 
+Method Resolution Order(MRO) it denotes the way a programming language resolves a method or attribute. Python supports classes inheriting from other
+ classes. The class being inherited is called the Parent or Superclass, while the class that inherits is called the Child or Subclass. In python,method 
+resolution order defines the order in which the base classes are searched when executing a method. First, the method or attribute is searched within a
+class and then it follows the order we specified while inheriting. This order is also called Linearization of a class and set of rules are called MRO
+
+40)Important differences between Python 2.x and Python 3.x with examples
+--In Python 2, print is considered to be a statement and not a function.
+--In Python 2, strings are stored as ASCII by default.
+--In Python 2, exceptions are enclosed in notations.
+--The values of global variables do change in Python 2 if they are used inside a for-loop.
+--In Python 2, the xrange() function has been defined for iterations.
+
+Python 3.0:-
+--In Python 3, print is considered to be a function and not a statement.
+--In Python 3, strings are stored as UNICODE by default.
+--In Python 3, exceptions are enclosed in parentheses.
+--The value of variables never changes in Python 3.
+--In Python 3, the new Range() function was introduced to perform iterations.
+
+41)How memory management is done in Python?
+Python uses its private heap space to manage the memory. Basically, all the objects and data structures are stored in the private heap space.
+Even the programmer can not access this private space as the interpreter takes care of this space. Python also has an inbuilt garbage collector, 
+which recycles all the unused memory and frees the memory and makes it available to the heap space.
+
+
+42)Scope resolution via LEGB rule :
+In Python, the LEGB rule is used to decide the order in which the namespaces are to be searched for scope resolution.
+The scopes are listed below:
+
+Local(L): Defined inside function/class
+Enclosed(E): Defined inside enclosing functions(Nested function concept)
+Global(G): Defined at the uppermost level
+Built-in(B): Reserved names in Python builtin modules.
+
+43)What is the use of with in python?
+--with statement in Python is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources 
+like file streams.
+
+--without using with statement
+file = open('file_path', 'w')
+file.write('hello world !')
+file.close()
+
+--using with statement
+with open('file_path', 'w') as file:
+    file.write('hello world !')
+
+44)Which modules you have been used?
+--We have used different types of modules in our day to day deliverables.
+  Paramiko, subprocess, winrm, openpyxl, JSON, nmap, re, time, requests, logging, random, pip, pylint, pprint
+
+45)Explain about pytest?
+
+-- Install pytest using pip install pytest
+-- Simple pytest program and run it with py.test command.
+-- Assertion statements, assert x==y, will return either True or False.
+-- How pytest identifies test files and methods.
+-- Test files starting with test_ or ending with _test
+-- Test methods starting with test
+-- py.test command will run all the test files in that folder and subfolders. To run a specific file, we can use the command py.test <filename>
+-- Run a subset of test methods
+-- Grouping of test names by substring matching.py.test -k <name> -v will run all the tests having <name> in its name.
+-- Run test by markers.Mark the tests using @pytest.mark.<name> and run the tests using pytest -m <name> to run tests marked as <name>.
+-- Run tests using py.test -n NUM where NUM is the number of workers
+-- Creating fixture methods to run code before every test by marking the method with @pytest.fixture
+-- The scope of a fixture method is within the file it is defined.
+-- A fixture method can be accessed across multiple test files by defining it in conftest.py file.
+-- A test method can access a Pytest fixture by using it as an input argument.
+-- Parametrizing tests to run it against multiple set of inputs.
+-- @pytest.mark.parametrize(“input1, input2, output”,[(5,5,10),(3,5,12)])
+-- def test_add(input1, input2, output):
+-- assert input1+input2 == output,”failed”
+-- will run the test with inputs (5,5,10) and (3,5,12)
+-- Skip/xfail tests using @pytets.mark.skip and @pytest.mark.xfail
+
+-- Create test results in XML format which covers executed test details using py.test test_sample1.py -v –junitxml=”result.xml”
+-- A sample pytest framework to test an API
+-- Run tests in parallel
+-- Install pytest-xdist using pip install pytest-xdist
+
+
+46)What is the use of pylint?
+--Pylint is used for the checking the good quality of code
+
+47)What is meant by JSON module?
+1.JSON ?
+
+-- JSON stands for JavaScript Object Notation & we import the JSON package in Python script
+-- It is used for storing and transferring data between browser and server
+-- In JSON the text will be in double quotes as key-value pair within { }, it is similar to dictionary in Python
+-- JSON Syntax - {"key":"value"}
+-- JSON supports primitive types like strings and numbers, as well as nested lists, tuples, and objects 
+
+-- Serializing/Encoding JSON(dump )? 
+
+-- The process of encoding JSON is called serialization
+
+    (1)To Convert from dictionary to JSON  -- json.dumps() method is used 
+       Syntax : json.dumps(dict, indent)
+	   
+	(2)For Writing JSON to a file  --  json.dump() method is used
+       Syntax : json.dump(dict, file_object, indent)
+
+-- Deserializing/Decoding JSON(load)? 
+
+-- The process of decoding JSON is called deserialization
+
+   (1)To Convert from JSON to Python  --  json.loads() method is used
+      Syntax : json.loads(json_string)
+	  
+   (2)To read JSON file  --  json.load() method is used
+      Syntax : json.load(file_object)
+
+
+48)What is File Handling?
+
+-- Python supports file handling and allows users to read and write files
+-- Each line of a file is terminated with a special character called EOL {,}
+
+-- Working of open() : Before performing any operation on the file like read or write, we have to use Python inbuilt function open() to open the file
+   Synatax : f = open(filename, mode)
+   
+-- There are different modes to perform the operations like:
+
+    r: open an existing file for a read operation.
+	Syntax : file = open("file.text", "r")
+             print (file.read())
+			 
+    w: open an existing file for a write operation, if the file already contains data then it will be overridden. 
+	Syntax : file = open("file.txt","w")
+             print(file.write())
+             file.close()
+			 
+    a: open an existing file for append operation, it won’t override existing data.
+	Syntax : file = open("file.txt","a")
+             print(file.write())
+             file.close()
+			 
+   r+: To read and write data into the file, the previous data in the file will not be deleted.
+   Syntax : file = open("file.txt","r+")
+             print(file.write())
+             file.close()
+			 
+   w+: To write and read data, it will override existing data.
+   Syntax : file = open("file.txt","w+")
+             print(file.write())
+             file.close()
+			 
+   a+: To append and read data from the file, it won’t override existing data. 
+   Syntax : file = open("file.txt","a+")
+             print(file.write())
+             file.close()
+
+-- Using write along with the with() function:
+   Syntax : with open("file.txt", "w") as f:
+            print(f.write())
+			
+
+-- split() function using file handling: 
+   We can also split lines using file handling
+   Syntax : with open("file.text", "r") as file:
+            data = file.readlines()
+            for line in data:
+            word = line.split()
+            print(word)
+			
+			
+
+49)Subprocess Module?
+
+-- It is used to run new applications or programs through Python code by creating new process.
+-- Popen() method is used to give the command and we will get the output.
+-- It helps to obtain the stdin/stdout/stderr/return code as well as the exist codes of various commands
+-- syntax: output = subprocess.run("ping www.google.com", stdout=subprocess.PIPE, encoding="utf-8", shell=True)
+-- We have run method in subprocess:
+   - First argument is input/command
+   - Second argument is output of the command
+   - Third argument is Encoding (bytes to string)
+   - Next it will check the shell(as python program to execute this command on command prompt)
+   - It will check whether it is stdout/stderr /return code 
+   - return always should be non-zero, it means command executed successfully.
+   
+   
+   
+50)What is meant by GITHUB?
+
+-- GitHub is a code hosting platform for collaboration and helps us to work with others on projects
+
+-- GitHub essentials are:
+
+   - Repositories
+   - Branches
+   - Commits
+   - Pull Requests/Merge Requests
+   
+   
+-- Repositories:
+   - It is used to store code/files to push/maintain/publish/review/pull code.  
+   - It contain folders and any type of files like HTML, CSS, JavaScript, Documents, Data, Images
+   
+-- Branches:
+   - A GitHub branch is used to work with different versions of a repository at the same time.
+   - By default a repository has a master branch
+   - Any other branch is a copy of the master branch
+   - New Branches are for bug fixes and feature work separate from the master branch. 
+   - When changes are ready, they can be merged into the master branch. 
+   - If you make changes to the master branch while working on a new branch, these updates can be pulled in. 
+
+-- Commits:
+   - At GitHub, changes are called commits.
+   - Each commit/changes has an explaination why a change was made.
+   
+-- Pull Requests/Merge Requests:
+   - Pull Requests are the heart of GitHub collaboration.
+   - With a pull request your changes will be merged (pulled in) with the master.
+   - Pull requests show content differences, changes, additions, and subtractions in colors (green and red).
+   - As soon as you have a commit, you can open a pull request and start a discussion, even before the code is finished.   
+   
+-- Process in usage of GIT: 
+  
+   - git clone -It is used for downloading the code for first time
+   - git pull origin main - It is used to get the added files/code 
+   
+***** To do any changes: 
+
+   - git branch branch_name - We need to enter the repository name
+   - git diff - It shows the difference
+   - git status - It shows the difference
+   - git add . - Adding your changed files
+   - git commit -m "Date_"
+   - git push origin branch_name
+
+51)What is meant by Paramiko?
+
+-- To transfer a file from local server to remote server & vice-versa using paramiko module in python
+-- On windows to install paramiko use , pip install paramiko in command prompt
+-- SSH is the method typically used to access a remote machine and run commands, retrieve files or upload files.
+-- You can transfer files using SFTP (Secure File Transfer Protocol) and SCP(Secure Copy Protocol).
+-- MAKING A CONNECTION : 
+		import paramiko
+		ssh_client=paramiko.SSHClient()
+		ssh_client.connect(hostname=’hostname’,username=’username’,password=’mypassword’,port='')
+
+-- Downloading a file from remote machine
+
+		sftp_client=ssh_client.open_sftp()
+		sftp_client.get(‘remotefileth’,’localfilepath’)
+		sftp_client.close()
+		
+		
+-- Uploading file from local to remote machine
+		sftp_client=ssh_client.open_sftp()
+		sftp_client.put(‘localfilepath’,remotefilepath’)
+		sftp_client.close()
+
+
+52)What are the levels in logging module?
+--There are 5 levels of logging module
+logging.basicConfig(filename="", level="", format="")
+logging.debug()
+logging.info()
+logging.warning()
+logging.critical()
+logging.errors()
+
+
+53)Why you are using random and what is the purpose of it?
+--Python Random module is an in-built module of Python which is used to generate random numbers. These are pseudo-random numbers means these are not truly 
+random. This module can be used to perform random actions such as generating random numbers, print random a value for a list or string, etc.
+
+Example:import random
+  
+# prints a random value from the list
+list1 = [1, 2, 3, 4, 5, 6]
+print(random.choice(list1))
+
+54)What is API testing?
+--API testing is a type of software testing where application programming interfaces (APIs) are tested to determine if they meet expectations for 
+functionality, reliability, performance, and security. In simple terms, API testing is intended to reveal bugs, inconsistencies or deviations from the 
+expected behavior of an API.
+
+55)What is the purpose of git stash command in github?
+--The git stash command saves a copy of your uncommitted changes in a queue, off to the side of your project.
+--By uncommitted changes, I mean items in either the staging area or the working directory that have been modified but not committed to the local repository.
+--Each time the stash command is invoked and there is uncommitted content (since the last stash command), git creates a new element on the queue to save that 
+content. That content can be in the staging area, in the working directory, or both.
+--After creating the stash and saving the uncommitted content, Git is basically doing a git reset --hard HEAD operation. However, because you have the stash, 
+you haven't lost your uncommitted changes.
+
+56)What are the difference between Match and search method in re module?
+--The re.match () method finds match if it occurs at start of the string. For example, calling match () on the string ‘TP Tutorials Point TP’ and 
+looking for a pattern ‘TP’ will match. The re.search () method is similar to re.match () but it doesn’t limit us to find matches at the beginning 
+of the string only.
+
+57)What is inheretance in python?
+--Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+58)What is generator?
+--A generator-function is defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword rather than 
+return. If the body of a def contains yield, the function automatically becomes a generator function.
+
+def simpleGeneratorFun():
+    yield 1            
+    yield 2            
+    yield 3            
+   
+# Driver code to check above generator function
+for value in simpleGeneratorFun(): 
+    print(value)
+	
+59)What is decorator?
+--Python can simplify the use of decorators with the @ symbol. This will output exactly the same, but is a cleaner way to write the code. 
+The call In both cases we apply the decorator to a function. Parameters can be used with decorators.
+
+60)What is iterator?
+Iterator in python is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets. The iterator object is initialized 
+using the iter() method. It uses the next() method for iteration.
+ 
+
+__iter(iterable)__ method that is called for the initialization of an iterator. This returns an iterator object
+next ( __next__ in Python 3) The next method returns the next value for the iterable. When we use a for loop to traverse any iterable object, 
+internally it uses the iter() method to get an iterator object which further uses next() method to iterate over. This method raises a StopIteration to 
+signal the end of the iteration.
+
+61)What is __init__ method in python?
+--The __init__ method is similar to constructors in C++ and Java. Constructors are used to initialize the object’s state. The task of constructors is to 
+initialize(assign values) to the data members of the class when an object of class is created. Like methods, a constructor also contains collection of 
+statements(i.e. instructions) that are executed at time of Object creation. It is run as soon as an object of a class is instantiated. The method is 
+useful to do any initialization you want to do with your object.
+
+class Person:  
+    def __init__(self, name):  
+        self.name = name   
+    def say_hi(self):  
+        print('Hello, my name is', self.name)  
+
+p = Person('Mahesh')  
+p.say_hi()  
+
+62)What is meant by polymorphism in python?
+--Polymorphism means basically many forms.
+--The method should behave differently based up on inputs.
+
+
+63)What is the automation?
+--Automation Testing is the method of testing software products with special testing tools and frameworks to minimize human intervention and maximize 
+quality.
+--Automation Testing is done with the help of automation software, and it controls the flow of the execution of tests as per the written test scripts. 
+--They are then compared with predicted outcomes to ensure the quality and reliability of the application. With Automation Testing, one can perform 
+necessary repetitive tasks and those tasks that are hard to achieve with manual testing.
+
+64)What is grouping in Regex?
+The re.groups() method
+This method returns a tuple containing all the subgroups of the match, from 1 up to however many groups are in the pattern. The default argument is 
+used for groups that did not participate in the match; it defaults to None.  In later versions (from 1.5.1 on), a singleton tuple is returned in such 
+cases.
+
+65)What is difference between is and == operation?  
+ Here we are going to tell you exactly what is the differences between these two operators are.
+
+Assignment Operator (=)
+= is an Assignment Operator in C, C++ and other programming languages, It is Binary Operator which operates on two operands.
+
+= assigns the value of right side expression’s or variable’s value to the left side variable.
+
+66)What is package?
+A Package is a directory containing numerous modules and sub-packages, whereas a Module is a.py file containing Python code.
+An __init__ .py file is required to create a package.
+We can import all objects in a module at once by using the asterisk (*) operator but we can’t import all modules in a package at once.
+
+67)What do you use memory devies for?
+
+68)Have you know about tests like smoke or reggresion test?
+Yes we know about both smoke and reggression testing.
+
+69)How do you connect to api?
+
+70)what issue you have faced in project?
+
+71)what do test on memory devices?
+
+72)Have you worked with multi-threading concept, what are the methods available in it?
+--Starting a New Thread
+To spawn another thread, you need to call following method available in thread module −
+thread.start_new_thread ( function, args[, kwargs] )
+
+The threading module exposes all the methods of the thread module and provides some additional methods −
+
+threading.activeCount() − Returns the number of thread objects that are active.
+threading.currentThread() − Returns the number of thread objects in the caller's thread control.
+threading.enumerate() − Returns a list of all thread objects that are currently active.
+
+In addition to the methods, the threading module has the Thread class that implements threading. The methods provided by the Thread class are as follows −
+
+run() − The run() method is the entry point for a thread.
+start() − The start() method starts a thread by calling the run method.
+join([time]) − The join() waits for threads to terminate.
+isAlive() − The isAlive() method checks whether a thread is still executing.
+getName() − The getName() method returns the name of a thread.
+setName() − The setName() method sets the name of a thread.
+
+Multithreaded Priority Queue
+The Queue module allows you to create a new queue object that can hold a specific number of items. There are following methods to control the Queue −
+
+get() − The get() removes and returns an item from the queue.
+put() − The put adds item to a queue.
+qsize() − The qsize() returns the number of items that are currently in the queue.
+empty() − The empty( ) returns True if queue is empty; otherwise, False.
+full() − the full() returns True if queue is full; otherwise, False.
+
+
+73)What is the media between python and SSD?
+
+74)how do you do the validation/ testcase validation
+--We are not from validation team we used to help the validation teams to run the test cases on msv framework.
+
+75)If testcase got fails , do you check it manually or your automation script will find the defects?
+--Automation script will defect if any test case fails.
+
+76)what are the technical challenges you faced for the automation?
+
+
+
+77)For what purpose did you used beyond compare?
+-- In our day to day deliverables we have different file changes.When we are facing that issues we will use beyond compare it will detect where the 
+exact changes are there we can find easily by using beyond compare.So we reduce developer searching time more comparitively.Instead of comparing we can 
+push the changes from one file to another.
+
+78)Do you know why we use conval.
+--To run the test cases we will use conval here 
+
+79)Why do we use regression testing?
+Regression testing is a type of software testing during which the previous changes to apps are being retested to make sure that all is functioning 
+correctly. It is a common process and a vital part of the application development process. It is usually implemented by code testing professionals.
+
+80)How frequent do you get the new releases
+For every week we will get new releases from firmware team.Every friday we will get new releases.
+
+81)What kind of testings you are doing in micron
+In micro we are having grey box testing.
+
+82)For performance what kind of tool do you use?
+
+
+83)Can you explain about __main__ ?
+'__main__' is the name of the scope in which top-level code executes. A module’s __name__ is set equal to '__main__' when read from standard input, 
+a script, or from an interactive prompt.
+
+A module can discover whether or not it is running in the main scope by checking its own __name__, which allows a common idiom for conditionally 
+executing code in a module when it is run as a script or with python -m but not when it is imported:
+
+if __name__ == '__main__':
+     # execute only if run as a script
+     main()
+
+84)Have you done any work on framework?
+We will do the Automation by using msv framwork.We wil help the validation team to run the test cases on msv framework.
+
+85)How do you define an Automation framework?
+Test automation framework is helpful when you need to execute the same test scripts multiple times with different builds to examine the application 
+and validate output. It is better to avoid automated testing for functionality, which you used only once since building automation script itself is 
+time-consuming.
+
+86)How do you checking code quality here by using pylint?
+--By using pylint module we check the quality of the code.By giving pylint quality out of 10 we will push the code.
+
+87)So what do you look into the framework,what did you do?
+We will do the Automation by using msv framwork.We wil help the validation team to run the test cases on msv framework.
+
+88)When you talk about the automation framework basically what is used for Automating the test cases?
+
+89)Suppose you are running the test case it stops abruptly how will you face?
+
+90)While you are running the test case might stop for many reasons can you give me top 5 reasons?
+
+91)For running the script before the script completed you run out of memory how you will solve?
+
+92)What do mean by multithreading,if you have any string like mahesh how will you do multithreading for that?
+
+93)Is it good to have multithreding in term of performance like it can speed up you python code?
+--Yes we will use multi-threading it will help us to speed up the process of running the test cases we have.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
