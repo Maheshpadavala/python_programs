@@ -1,0 +1,34 @@
+-----------------------------------------------------Celestial systems----------------------------------------------------------
+
+1)Tell me about your roles and responsibilities?
+
+2)I want to know which domine you are working with?
+
+3)What is the total experience in automation?
+
+4)Tell me about fixtures?
+
+5)Explain about pytest.mark method?
+
+6)Let suppose you have 2 markers one is login and another is logout,so you are running for a login tell pytest login and logout are the markers for 
+this framework where you will initialize this?
+
+7)Have you use parameterize?
+
+8)Do you know about setup and teardown?
+
+9)From pytest fixture you have two setup and teardown how will you differentiate the codes?
+
+10)Square the 10 elements using list comprihension?
+
+11)Write a program on cube root of number?
+
+12)Input is dict_1 = {"a":"b","c":"d"}
+i want output as list_1 =[a,c],list_2 = [b,d]
+
+13)Can you open flipcart.com?
+
+14)Let support you have ssh client they are connected to cloud mechine,so connect to cloud let suppose can you run any DB command by using paramiko?
+
+
+
