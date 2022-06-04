@@ -1,0 +1,40 @@
+-------------------------------------------------Mirafra interview questions-----------------------------------------------------
+
+1)Tell me about you roles and responsibilities?
+
+2)How can you rate yourself in python?
+
+3)What is the difference between list and array?
+
+4)Write a program l1 = [1,2,3,4,5]
+o/p = ['1','2','3','4','5'].
+
+5)Write a program l1 = [1,2,1,3,4,3,5,6,6,6]
+o/p = [6,5,4,3,2,1].
+
+6)Write a program using lambda square the given list, lst_1 = [1,2,3,4]
+
+7)Write a program l1 = ['hello','world']
+ o/p = ['olleh' , 'dlrow']
+ 
+8)Write a program l1 = [1,2,2,3,3,3,4,4,5,8]
+o/p = {1: 1, 2: 2, 3: 3, 4: 2, 5: 1, 8: 1}
+
+9)Write in order of the above dictionary?
+
+10)string_1 = "Hello world" reverse the string?
+
+11)What is polymorphism?
+
+12)Can python supports Method overloading?
+
+13)Difference between package and module?
+
+14)l1 = [1,2,3], l2=l1,l2.append(6) what is the output while printing the l1?
+
+15)l1=[1,2,3],l2 = [4,5,6] if l3=l1+l2 what is the output?
+
+16)t1=(1,2,3),t2=(4,5,6) if t1 = t1+t2 what is the output?
+
+17)What is the difference between deep and shallow copy?
+
