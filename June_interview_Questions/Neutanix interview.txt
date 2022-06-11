@@ -1,0 +1,70 @@
+--------------------------------------------------------------Neutanix_interview--------------------------------------------------------
+
+1)Breifly explain about yourself?
+
+2)What are the protocols do you use while working with storage devises?
+
+3)Write a program string_1 = "My name is mahesh"
+output = "yM eman si hseham"
+
+4)List_1 = [23,4,76,9,4,1,75] write a program to find the largest and second largest of the given list.
+
+5)Make all the elements in the above list negative.
+
+6)list = ["bwrhskws hjsha jsjw      13 2026 maximo", "bwrhskws hjsha jsjw      13 2021 max", "bwrhskws hjsha jsjw      13 2023 ghost", "bwrhskws hjsha jsjw      13 2021 po po"]
+ print the list of last elements which is having after the year?
+ 
+7)What is the decorator in python?
+
+8)input_txt =("Raj Bhat 35",
+"Simran Singh 43",
+"Hari Singh 37",
+"Gopal Bhat 65",
+"Guru Bhat 38",
+"Mukhesh Jha 35",
+"Tony Singh 43",
+"Montu Singh 39",
+"Harsha Bhat 35",
+"Manu Singh 37",
+"Kavi Bhat 38",
+"Ranjani Ayyar 47",
+"Raj Jha 35",
+"Kaushik Jha 89",
+"Guru Singh 43",
+"Manu Bhat 55",
+"Omkar Singh 37",
+"Ravi Bhat 38",
+"Saurabh Singh 95",
+"Monty Singh 43")
+
+i want only more than one items based on age and last name
+example:output = Raj Bhat 35
+                 Harsha Bhat 35
+				
+				 Hari Singh 37
+				 Manu Singh 37
+				 Omkar Singh 37
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

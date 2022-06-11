@@ -1,0 +1,28 @@
+--------------------------------------------------------HCL interview-------------------------------------------------------------
+
+1)Tell me about yourself?
+
+2)How good you are in python out of 5?
+
+3)You worked on roboat framework?
+
+4)list_1 = [10,20,30,58,46,70] add all elements in the given list?
+
+5)list_1 = [10,20,30,58,46,70] write a progame to find second largest number in the given string?
+
+6)Write a program using string_1 = "Hello world" output= He wrd
+
+7)Write a program weather the given strings are anegram or not?
+string_1 = "rescue"
+string_2 = "secure"
+
+8)Have you work in any test automation?
+
+9)Which framwork you are using?
+
+10)Have you know about jira?
+
+11)Are you using github?
+
+12)Did you work on selenium?
+

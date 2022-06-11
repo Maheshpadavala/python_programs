@@ -1,0 +1,38 @@
+----------------------------------------------------------Barracuda interview--------------------------------------------------------------
+
+1)What is you work and primary responsibilities?
+
+2)Can you explain about regression testing?
+
+3)What are the programming languages you have worked?
+
+4)What is the framework you are using?
+
+5)You have worked on jenkins?
+
+6)Have you worked on github?
+
+7)Have you worked on jira?
+
+8)How do you rate yourself while using github?
+
+9)What is inheritance in oops concept breifly explain about it?
+
+10)Do you know special method is called as finalize?
+
+11)Can you explain about destructor?
+
+12)Do you know about iteratores in python?
+
+13)How do you copy dictionary in python?
+
+14)dict = {"a" : 5}
+  b = a
+  when chaging the b what will be the output of a and b?
+  
+15)What is the difference between deep copy and shallow copy?
+
+16)String_1 = "14dha783hdbs8947fhs"
+  output = "14ahd783sbdh8947shf"
+  
+  
